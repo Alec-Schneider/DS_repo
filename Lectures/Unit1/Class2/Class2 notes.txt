@@ -1,0 +1,12 @@
+Jupyter Commands:
+New cell above - A
+New cell below - B
+Delete cell - dd, x
+Command mode - Esc
+Editing mode - Enter
+Code - y
+Markdown - m
+
+Look into creating a pythonanywhere account: pythonanywhere.com
+Good for deploying python scripts on a server
+
