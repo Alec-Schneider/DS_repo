@@ -1,0 +1,5 @@
+Results of Euclidean Distance using source library vs numpy arrays:
+Lists and built-in: 10.084980199999999
+Result with lists and source library: 15.432696724708642
+Numpy arrays: 9.915572599999999
+Result with numpy arrays: 15.432696724708642
