@@ -1,0 +1,6 @@
+A "return" statement within a function stop the function from continuing. Essentially "kills" the function execution.
+
+
+list of dicts
+need to split movies by category
+find average withing category
