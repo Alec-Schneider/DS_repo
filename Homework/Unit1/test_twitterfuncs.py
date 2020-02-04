@@ -1,5 +1,5 @@
 
-from twitterfuncs import find_user, get_followers, find_hashtag, friends_of_friends
+from alecschneider import find_user, get_followers, find_hashtag, friends_of_friends
 
 
 def test_find_user():
