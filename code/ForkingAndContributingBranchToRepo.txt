@@ -1,0 +1,15 @@
+Submitting homework:
+1. Fork DAT-01-21-20 into my own profile
+2. Add alecschneider.py file into studentprojs folder on local version of jon's DAT repo
+3. Get url from my forked version of the repo
+4. Go to directory of original DAT repo
+5. git remote add <variable name> <url of my forked version of the repo>
+6. Check versions by using git remote -v
+7. git add .
+8. git commit -m "whatever message"
+9. git push <variable name> master
+10. Go to forked version of thed repo on GitHub.
+11. Go to pull requests, click on the pull requests button
+12. Create pull request
+13. Write message if you want
+14. Create pull request

@@ -1,7 +1,6 @@
 """
 Functions learned or created during my Data Science course at General Assembly.
 """
-
 import numpy as np
 
 def euclidean_distance(a, b):
