@@ -2,6 +2,7 @@
 Functions learned or created during my Data Science course at General Assembly.
 """
 import numpy as np
+from scipy.stats import pearsonr
 
 def euclidean_distance(a, b):
     """
@@ -35,3 +36,10 @@ def r_2(preds, y):
     naive_cost = np.sum((y - y.mean())**2)
     r2 = 1 - (model_cost / naive_cost)
     return r2
+
+
+def get_pearsonr(X, y):
+    corrs = []
+    for col in X.columns:
+        corrs.append(pearsonr(X[col], y))    
+    return pd.DataFrame(corrs, columns=['Pearson Coefficient', 'Two-Tailed p-value'], index=X.columns)
